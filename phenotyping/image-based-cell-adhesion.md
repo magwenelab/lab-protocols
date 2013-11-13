@@ -39,7 +39,8 @@ Measure ability of yeast strains to adhere to plastic (polystrene). Plastic adhe
         - Goal: "fill in" holes in outlines of cells, but NOT fill in spaces between cells
     
     * `Process > Binary > Make Binary`
-        - Goal: turn grayscale image to black and white image
+        - Goal: turn grayscale image to black and white image 
+
 
 8. Compare your B&W derived image to the base image
     * Select the grayscale "base image"
@@ -50,6 +51,8 @@ Measure ability of yeast strains to adhere to plastic (polystrene). Plastic adhe
         - Set the Opacity to 50%
 
     * Visually evaluate the dark areas of the derived image to the base image.  Do the dark areas of the derived image provide a reasonable mask to the cells in the base image?  If so, proceed to the next step.
+
+
 
 9. Select the B&W derived image window
     * Pick the elliptical selection tool from the Fiji toolbar
@@ -63,6 +66,8 @@ Measure ability of yeast strains to adhere to plastic (polystrene). Plastic adhe
         - Set Size:  25 - Inifinity (choice of minimum will depend on actual resolution image was captured at)
         - Select "Clear Results" and "Summarize"
         - Hit `OK` and this function will return a summary window giving areal percentage of selected region that is filled with black.  This percentage is your estimate of the fraction of surface covered by cells.
+
+
 
 10. Repeat the above steps for each of your images of interest.
 
