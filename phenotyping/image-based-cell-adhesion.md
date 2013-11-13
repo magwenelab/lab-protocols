@@ -21,6 +21,7 @@ Measure ability of yeast strains to adhere to plastic (polystrene). Plastic adhe
 
     * `Image > Type > 8-bit`
 
+
 3. Use rectangular selection tool to select the approximate region of the image that is in focus -- choose rectangle slightly larger (say 10% on each side) than region in focus
 
 4. Use copy command (command-c (OSX) or ctrl-c (Windows)) to copy selected region to internal clipboard
@@ -28,6 +29,7 @@ Measure ability of yeast strains to adhere to plastic (polystrene). Plastic adhe
 5. Create two new images from the selected region
 
     * `File > New > Internal Clipboard`  (repeat this twice)
+
 
 6. Choose one of the two images to become your binary image. We'll refer to this as the "derived image", the other image we'll refer to as the "base image".
 
@@ -46,6 +48,7 @@ Measure ability of yeast strains to adhere to plastic (polystrene). Plastic adhe
     * `Process > Binary > Make Binary`
         - Goal: turn grayscale image to black and white image
 
+
 8. Compare your B&W derived image to the base image
 
     * Select the grayscale "base image"
@@ -56,6 +59,7 @@ Measure ability of yeast strains to adhere to plastic (polystrene). Plastic adhe
         - Set the Opacity to 50%
 
     * Visually evaluate the dark areas of the derived image to the base image.  Do the dark areas of the derived image provide a reasonable mask to the cells in the base image?  If so, proceed to the next step.
+
 
 9. Select the B&W derived image window
 
